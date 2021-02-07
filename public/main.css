@@ -17,6 +17,12 @@ body {
   justify-content: space-between;
 }
 
+.home__illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 
 .home__illustration--title {
   font-size: 20px;
@@ -33,7 +39,9 @@ body {
   display: flex;
   height: 50vh;
   max-height: 100%;
+  box-shadow: 5px 5px 20px;
 }
+
 /* .container-main {
   width: 80%
 } */
@@ -48,7 +56,6 @@ body {
   max-width: 100%;
   padding: 25px;
   display: block;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -229,7 +236,10 @@ body {
   max-width: 100%;
   padding: 25px;
   text-align: left;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 
@@ -398,7 +408,6 @@ body {
   background-color: #F3D083;
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
-  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
