@@ -17,17 +17,6 @@ body {
   justify-content: space-between;
 }
 
-/* .home__illustration {
-  display: flex;
-  flex-direction: column;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-  background-color: #F3D083;
-  height: 100%;
-  height: calc(100%-30px);
-  padding-left: 30px;
-  padding-right: 30px;
-} */
 
 .home__illustration--title {
   font-size: 20px;
